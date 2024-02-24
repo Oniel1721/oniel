@@ -8,6 +8,10 @@
     "url": "git+https://github.com/Oniel1721/oniel.git"
   },
   "license": "MIT",
+  "scripts": {
+    "lint": "pnpm --stream -r lint",
+    "build": "pnpm --stream -r build"
+  },
   "packageManager": "pnpm@8.15.1",
   "engines": {
     "node": ">=20.0.0",
