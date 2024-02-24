@@ -19,7 +19,8 @@
     "dist/**"
   ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "@Oniel1721:registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
