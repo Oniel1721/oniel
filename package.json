@@ -14,5 +14,8 @@
     "pnpm": ">=8.9.0"
   },
   "type": "module",
-  "author": "Oniel1721"
+  "author": "Oniel1721",
+  "workspaces": [
+    "packages/*"
+  ]
 }
