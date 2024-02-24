@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "oniel",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "homepage": "https://github.com/Oniel1721/oniel",
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "author": "Oniel1721",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1"
+  }
 }

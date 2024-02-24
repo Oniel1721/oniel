@@ -4,23 +4,26 @@
   "type": "module",
   "license": "MIT",
   "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc",
     "prepublish": "pnpm run build"
   },
   "devDependencies": {
+    "tsup": "^8.0.2",
     "typescript": "^5.3.3"
   },
   "files": [
     "dist/**"
   ],
   "publishConfig": {
-    "access": "public",
-    "directory": "packages/typed",
-    "registry": "https://npm.pkg.github.com",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Oniel1721/oniel.git"
-    }
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oniel1721/oniel.git",
+    "directory": "packages/typed"
   }
 }
