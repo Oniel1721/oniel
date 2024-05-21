@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "oniel",
+  "name": "@oniel1721/oniel",
   "version": "0.0.0",
   "homepage": "https://github.com/Oniel1721/oniel",
   "repository": {
@@ -11,6 +11,9 @@
   "scripts": {
     "lint": "pnpm --stream -r lint",
     "build": "pnpm --stream -r build"
+  },
+  "publishConfig": {
+    "@Oniel1721:registry": "https://npm.pkg.github.com"
   },
   "packageManager": "pnpm@8.15.1",
   "engines": {
